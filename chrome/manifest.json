@@ -1,0 +1,12 @@
+{
+  "name": "CCR Viewer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Cascade Content Row Viewer",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*.cascadecms.com/entity/open.act?*"]
+    }
+  ]
+}
